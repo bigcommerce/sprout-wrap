@@ -43,21 +43,24 @@ node_attributes:
     git:
       domain: pivotallabs.com
       authors:
-        - initials: ah
-          name: Abhijit Hiremagalur
-          shortname: abhi
-        - initials: bc
-          name: Brian Cunnie
-          shortname: cunnie
+        - initials: gc
+          name: Greg Cobb
+          username: gcobb
         - initials: jrhb
           name: Jonathan Barnes
-        - initials: lw
-          name: Luke Winikates
-          shortname: lwinikates
+        - initials: kw
+          name: Karen Wang
+          username: khwang
+        - initials: pm
+          name: Phil Muir
+          username: phill.muir
       projects:
         -
+          - pluto
+          - git@github.com:bigcommerce/pluto.git
+        -
           - sprout-wrap
-          - https://github.com/pivotal-sprout/sprout-wrap.git
+          - git@github.com:bigcommerce/sprout-wrap.git
     terminal:
       default_profile: 'Pro'
     settings:
@@ -74,7 +77,6 @@ node_attributes:
         - ag
         - chromedriver
         - imagemagick
-        - node
         - pstree
         - qt
         - ssh-copy-id
@@ -98,3 +100,7 @@ node_attributes:
         - virtualbox
         - xquartz
         - xscope
+    rbenv:
+      rubies:
+        2.1.1: {}
+      default_ruby: 2.1.1
