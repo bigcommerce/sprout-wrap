@@ -99,6 +99,7 @@ node_attributes:
         - virtualbox
         - xquartz
         - xscope
+        - heroku-toolbelt
     rbenv:
       rubies:
         2.1.1: {}
