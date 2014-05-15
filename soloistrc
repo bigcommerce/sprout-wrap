@@ -43,6 +43,10 @@ node_attributes:
     git:
       domain: pivotallabs.com
       authors:
+        - initials: al
+          name: Anthony Leach
+          username: anthony.leach
+          email: anthony.leach@bigcommerce.com
         - initials: gc
           name: Greg Cobb
           username: gcobb
@@ -54,6 +58,7 @@ node_attributes:
         - initials: pm
           name: Phil Muir
           username: phill.muir
+          email: phill.muir@bigcommerce.com
       projects:
         -
           - pluto
@@ -78,28 +83,29 @@ node_attributes:
         - imagemagick
         - pstree
         - qt
+        - rbenv-binstubs
+        - rbenv-gem-rehash
+        - redis
         - ssh-copy-id
         - tmux
         - tree
         - watch
         - wget
-        - rbenv-binstubs
-        - rbenv-gem-rehash
       casks:
         - ccmenu
         - firefox
-        - gitx-rowanj
         - github
+        - gitx-rowanj
         - google-chrome
         - google-drive
         - google-hangouts
+        - heroku-toolbelt
         - skype
         - textmate
         - vagrant
         - virtualbox
         - xquartz
         - xscope
-        - heroku-toolbelt
     rbenv:
       rubies:
         2.1.1: {}
