@@ -66,6 +66,9 @@ node_attributes:
         -
           - sprout-wrap
           - git@github.com:bigcommerce/sprout-wrap.git
+        -
+          - rubymine_preferences
+          - https://github.com/pivotal/Pivotal-Preferences-RubyMine.git
     terminal:
       default_profile: 'Pro'
     settings:
