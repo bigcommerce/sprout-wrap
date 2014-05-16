@@ -41,6 +41,8 @@ recipes:
 node_attributes:
   sprout:
     git:
+      aliases:
+        - ci 'pair-commit -v'
       domain: pivotallabs.com
       authors:
         - initials: al
