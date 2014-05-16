@@ -18,6 +18,7 @@ recipes:
 - sprout-git::default_editor
 - sprout-git::projects
 - sprout-git::git_scripts
+- sprout-redis
 
 # development (rails)
 - sprout-rbenv
@@ -90,7 +91,6 @@ node_attributes:
         - qt
         - rbenv-binstubs
         - rbenv-gem-rehash
-        - redis
         - ssh-copy-id
         - tmux
         - tree

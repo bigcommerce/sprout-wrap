@@ -2,50 +2,19 @@
 
 site 'http://community.opscode.com/api/v1'
 
-cookbook 'meta',
-  :path => 'site-cookbooks/meta'
-
-cookbook 'sprout-rbenv',
-  :github => 'pivotal-sprout/sprout-rbenv'
-
-cookbook 'sprout-ruby',
-  :github => 'pivotal-sprout/sprout-ruby'
-
-cookbook 'sprout-mysql',
-  :github => 'pivotal-sprout/sprout-mysql'
-
-cookbook 'sprout-git',
-  :github => 'pivotal-sprout/sprout-git'
-
-cookbook 'sprout-base',
-  :github => 'pivotal-sprout/sprout-base'
-
-cookbook 'sprout-osx-apps',
-  :github => 'pivotal-sprout/sprout',
-  :path => 'sprout-osx-apps'
-
-cookbook 'sprout-osx-settings',
-  :github => 'pivotal-sprout/sprout-osx-settings'
-
-cookbook 'sprout-pivotal',
-  :github => 'pivotal-sprout/sprout',
-  :path => 'sprout-pivotal'
-
-cookbook 'osx',
-  :github => 'pivotal-sprout/sprout',
-  :path => 'osx'
-
-cookbook 'sprout-rubymine',
-  :github => 'pivotal-sprout/sprout-rubymine'
-
-cookbook 'sprout-homebrew',
-  :github => 'pivotal-sprout/sprout-homebrew'
-
-cookbook 'sprout-terminal',
-  :github => 'pivotal-sprout/sprout-terminal'
-
-cookbook 'sprout-postgresql',
-  :github => 'pivotal-sprout/sprout-postgresql'
-
-cookbook 'sprout-ssh',
-  :github => 'pivotal-sprout/sprout-ssh'
+cookbook 'meta', :path => 'site-cookbooks/meta'
+cookbook 'osx', :github => 'pivotal-sprout/sprout', :path => 'osx'
+cookbook 'sprout-base', :github => 'pivotal-sprout/sprout-base'
+cookbook 'sprout-git', :github => 'pivotal-sprout/sprout-git'
+cookbook 'sprout-homebrew', :github => 'pivotal-sprout/sprout-homebrew'
+cookbook 'sprout-mysql', :github => 'pivotal-sprout/sprout-mysql'
+cookbook 'sprout-osx-apps', :github => 'pivotal-sprout/sprout', :path => 'sprout-osx-apps'
+cookbook 'sprout-osx-settings', :github => 'pivotal-sprout/sprout-osx-settings'
+cookbook 'sprout-pivotal', :github => 'pivotal-sprout/sprout', :path => 'sprout-pivotal'
+cookbook 'sprout-postgresql', :github => 'pivotal-sprout/sprout-postgresql'
+cookbook 'sprout-rbenv', :github => 'pivotal-sprout/sprout-rbenv'
+cookbook 'sprout-redis', :github => 'pivotal-sprout/sprout-redis'
+cookbook 'sprout-ruby', :github => 'pivotal-sprout/sprout-ruby'
+cookbook 'sprout-rubymine', :github => 'pivotal-sprout/sprout-rubymine'
+cookbook 'sprout-ssh', :github => 'pivotal-sprout/sprout-ssh'
+cookbook 'sprout-terminal', :github => 'pivotal-sprout/sprout-terminal'
