@@ -62,6 +62,10 @@ node_attributes:
           name: Phil Muir
           username: phill.muir
           email: phill.muir@bigcommerce.com
+        - initials: sg
+          name: Saurabh Gupta
+          username: saurabh.gupta
+          email: saurabh.gupta@bigcommerce.com
       projects:
         -
           - pluto
