@@ -110,6 +110,7 @@ node_attributes:
         - google-hangouts
         - heroku-toolbelt
         - ngrok
+        - screenhero
         - skype
         - sourcetree
         - textmate
