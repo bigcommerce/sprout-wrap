@@ -91,6 +91,7 @@ node_attributes:
         - ag
         - chromedriver
         - imagemagick
+        - phantomjs
         - pstree
         - qt
         - rbenv-binstubs
